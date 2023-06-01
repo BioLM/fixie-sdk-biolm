@@ -17,8 +17,8 @@ fixie = "fixieai.cli.cli:fixie"
 fixieai = "fixieai.cli.cli:fixie"
 
 [tool.poetry.dependencies]
-click = "^7.1.3"
-fastapi = { version = "^0.86.1" }
+click = "^7.0.0"
+fastapi = { version = "^0.86.0" }
 uvicorn = { version = "^0.20.0", extras = ["standard"] }
 gql = { version = "^3.4.1", extras = ["requests"] }
 python = "^3.8"
