@@ -20,7 +20,7 @@ fixieai = "fixieai.cli.cli:fixie"
 click = "^7.0.0"
 fastapi = { version = "^0.86.0" }
 uvicorn = { version = "^0.20.0", extras = ["standard"] }
-gql = { version = "^3.4.1", extras = ["requests"] }
+gql = { version = "^3.0.0", extras = ["requests"] }
 python = "^3.8"
 prompt-toolkit = "*"
 pydantic = ">=1.8.1"
